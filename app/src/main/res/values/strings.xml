@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TextJustify</string>
+    <string name="text_view">Text View</string>
+    <string name="web_view">Web VIew</string>
+    <string name="content">全球正走向萬物聯網(Internet of Thing;IoT)時代，現階段發展雖只有100億個裝置連網，Cisco預測在2020年來臨之前，連網裝置數量將突破500億！
+        著名財金雜誌富比士(Forbes)將2015年譽為「Beacon元年」，根據統計，全美至2018年會有450萬個Beacon被安裝，其中八成就是安裝在零售通路點！
+        然而， 在科技不斷進步的同時，消費行為也隨之進化：E-commerce 浪潮來襲~受到電子商務光速成長與消費型態改變，導致＜實體通路業績下滑！＞
+        Consumer 越來越精明~太多購買管道，導致＜實體店面變成「ShowRoom」消費者只看不買，轉而在虛擬通路購物＞
+        為了讓更多企業、民眾瞭解｛智慧商務｝發展現況與未來全球趨勢，資策會創新應用服務研究所－IoT智慧商務推動小組
+        彙整2014-2015年最新商務案例，推出«IoT智慧商務»特刊，內容包含Beacon、Signage、Mobile等不同領域新穎應用。
+        在最新媒體載具上，«IoT智慧商務»善用互動科技，讓您在閱讀時可看、可互動、可分享，更具活潑性與可看性。
+        «IoT智慧商務»邀請您一同在智慧載具上感受科技、看見未來，見證商務時代的轉變！
+    </string>
+</resources>

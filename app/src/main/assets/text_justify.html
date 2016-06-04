@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Text Justify</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript">
+			function getURLParameter(name) {
+			  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
+			}
+		</script>
+         <style>
+            body {
+                font-size: 1.0em;
+                margin:0px 0px 0px 0px;   
+                word-break:normal;   
+                overflow: hidden;
+                text-overflow: ellipsis; 
+                hyphens: auto;     
+                line-height: 150%;
+                text-align: justify;
+                text-justify:inter-ideograph;
+                -ms-text-justify: inter-ideograph; /*IE9*/
+                -moz-text-align-last:justify; /*Firefox*/
+                -webkit-text-align-last:justify; /*Chrome*/
+            }
+            @media screen and (-webkit-device-pixel-ratio: 1.5) {
+            /* CSS for high-density screens */
+            body {
+                font-size: 1.05em;
+                }
+            }
+
+        @media screen and (-webkit-device-pixel-ratio: 2.0) {
+            /* CSS for extra high-density screens */
+            body {
+                font-size: 1.1em;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <!-- Add your site or application content here -->
+        <script type="text/javascript">
+            document.write(getURLParameter('info'))
+        </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+
+    </body>
+</html>
